@@ -1,0 +1,146 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 450px;
+  margin: 2em auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+
+.navbar {
+  border-bottom: 1px solid #CCC;
+  padding: 1em 2em;
+  margin-bottom: 1em;
+  background-color: #DB4B3F;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar ul li {
+  padding: 0 1.5em;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+
+.botao {
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  background: #DB4B3F;
+  color: white;
+  padding: 0.7em 1em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s;
+  border: 1px solid #DB4B3F;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background: white;
+  color: #DB4B3F;
+  border: 1px solid #DB4B3F;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 1em;
+}
+
+.task-list li {
+  padding: .5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #EFEFEF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list .title {
+  font-weight: bold;
+  color: #DB4B3F;
+  transition: .5s;
+  font-size: 1.2em;
+}
+
+.task-list .title:hover {
+  color: #333;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions i {
+  font-size: 1.7em;
+  margin: 0 .6em;
+  color: #333;
+}
+
+.actions i:hover {
+  color: #DB4B3F;
+}
+
+.actions form {
+  margin: 0
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  vertical-align: center;
+}
+
+.task-list .done a {
+  text-decoration: none;
+}
+
+.task-list .done .title {
+  text-decoration: line-through;
+  color: #ccc;
+}
